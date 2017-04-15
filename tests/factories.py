@@ -1,4 +1,5 @@
 from datetime import datetime
+from random import randint
 
 import factory
 
@@ -21,7 +22,7 @@ class PostFactory(factory.Factory):
 
     text = 'Sample post text'
     timestamp = datetime(2017, 1, 10)
-
+    
 
 class TextPostFactory(PostFactory):
     class Meta:

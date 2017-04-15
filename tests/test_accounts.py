@@ -1,7 +1,7 @@
 import unittest
 
 from social_network.accounts import User
-from tests.factories import UserFactory, TextPostFactory, PicturePostFactory
+from tests.factories import (UserFactory, TextPostFactory, PicturePostFactory)
 
 
 class TestUser(unittest.TestCase):
